@@ -50,7 +50,7 @@ resource "aws_instance" "example" {
   instance_type          = "t2.micro"
   subnet_id             = data.aws_subnets.public.ids[0]
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
-  key_name               = "your-key-pair" # Replace with your key pair name
+  key_name               = "x" # Replace with your key pair name
 
   tags = {
     Name = "t2-micro-instance"
