@@ -46,7 +46,7 @@ resource "aws_security_group" "ec2_sg" {
 
 # EC2 Instance
 resource "aws_instance" "example" {
-  ami                    = "ami-0c55b159cbfafe1f0" # Replace with your preferred AMI ID
+  ami                    = "ami-01816d07b1128cd2d" # Replace with your preferred AMI ID
   instance_type          = "t2.micro"
   subnet_id             = data.aws_subnets.public.ids[0]
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
