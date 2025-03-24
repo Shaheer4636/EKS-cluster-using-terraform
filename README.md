@@ -1,6 +1,6 @@
-# 📌 EKS Monitoring with Terraform
+#  EKS Monitoring with Terraform
 
-## 📖 Overview
+## Overview
 
 This repository provides an automated solution for **monitoring an Amazon EKS cluster** using **Terraform, Prometheus, Grafana, and Alertmanager**.  
 It includes:  
